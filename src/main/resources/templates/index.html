@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Zombieeee Land</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body id="game">
+    <div id="lose" style="display: none">Вы проиграли...</div>
+    <div id="score">Score: 0</div>
+    <div id="hp">HP: 100</div>
+    <div id="gun">Gun: Pistol</div>
+    <div id="ammunition">Ammunition: 20</div>
+    <div id="levelToChange" style="display: none">Level 1</div>
+    <div id="level">Level: 1</div>
+    <div id="opened">Opened guns:</div>
+    <div id="pistol">-Pistol</div>
+    <div id="openedUzi" style="display: none">Uzi was opened. Press [2].</div>
+    <div id="openedShotgun" style="display: none">Shotgun was opened. Press [3].</div>
+    <div id="uzi" style="display: none">-Uzi</div>
+    <div id="shotgun" style="display: none">-Shotgun</div>
+    <canvas id="canvas" width="1000" height="610" style="border: 2px solid black"></canvas>
+    <a id="menu"  href="/" style="display: none">Начать заново</a>
+
+    <script src="/js/engine.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
